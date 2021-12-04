@@ -1,0 +1,56 @@
+# macos stupid
+.DS_Store
+._*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pyre type checker
+.pyre/
+
+# Blender incremental saves
+*.blend1
+*.blend2
+*.blend3
+
+# Alinsa's backup saves directory
+blend.saves
+
+# Misc
+.vscode
+.diff
+typings/
+typings-orig/
+*.bak
+
+# don't want vendor dirs -- we generate those from requirements.txt
+vendor/
+
+# Probably don't need to commit logs
+*.log
+
